@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background: #030712; color: white; }
+
+.option-card { cursor: pointer; border: 1px solid #1f2937; border-radius: 12px; padding: 16px; transition: all 0.2s; }
+.option-card:hover { border-color: #374151; background: rgba(31,41,55,0.5); }
+.option-card.selected { border-color: currentColor; background: rgba(31,41,55,0.8); }
+.progress-fill { transition: width 0.4s ease; }
+.prompt-output { font-family: monospace; font-size: 14px; background: #111827; border-radius: 8px; padding: 16px; overflow: auto; max-height: 384px; color: #d1d5db; white-space: pre-wrap; }
